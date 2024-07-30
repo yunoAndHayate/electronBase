@@ -1,0 +1,21 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "author": "Your Name <your.email@example.com>",
+  "description": "My Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64 --dir"
+  },
+  "build": {
+    "appId": "com.example.app",
+    "win": {
+      "target": ["nsis"]
+    }
+  },
+  "devDependencies": {
+    "electron": "^13.0.0",
+    "electron-builder": "^22.11.7"
+  }
+}

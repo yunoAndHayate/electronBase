@@ -1,0 +1,54 @@
+# 依存関係
+/app/node_modules
+
+# ビルド出力
+/app/dist
+/app/out
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/logs
+
+# ランタイムデータ
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ディレクトリ
+.npm
+.eslintcache
+
+# オプション: エディタ固有のファイル
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Electronパッケージング出力
+/electron-app-*
+
+# パッケージマネージャのロックファイル（オプション）
+# package-lock.json
+# yarn.lock
+
+# カバレッジディレクトリ
+coverage
+
+# その他の一時ファイル
+*.log
+*.tmp
+*.temp
